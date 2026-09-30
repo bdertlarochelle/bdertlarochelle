@@ -41,7 +41,7 @@ footer {
     border-radius: 5px;
 }
 .hero {
-    margin-bottom: 25px;
+    margin-bottom: 8rem;
     width: 75vw;
 }
 .hero a, .event a {
@@ -54,16 +54,34 @@ footer {
     margin: 1rem 0;
     font-size: 1.6rem;
 }
-.event h2 {
-    font-size: 1.3rem;
+.event, .engagement {
+    margin-bottom: 3rem;
+}
+.event h2, .engagement h2 {
+    font-size: 1.6rem;
     margin-bottom: 0.3rem;
 }
-.event ul {
+.event ul, .engagement ul {
     background-color: #efeee6;
     margin: 2px 0;
     padding: 5px;
     border-left: 1px solid black;
 }
-.event li {
+.event li, .engagement li {
     padding: 0.2rem;
+}
+.membre {
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    width: 80vw;
+    padding: 1rem;
+    border: 1px solid black;
+}
+.card h2 {
+    text-align: center;
+}
+.card p {
+    text-align: justify;
 }
